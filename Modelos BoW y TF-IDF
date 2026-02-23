@@ -1,7 +1,0 @@
-from sklearn.feature_extraction.text import CountVectorizer
-texts = ["Die Äpfel are rot",
-         "Die Kinder spielten"]
-vectorizer = CountVectorizer()
-vectorizer.fit(texts)
-print(vectorizer.vocabulary_)
-print("Tamano del vocabulario:", len(vectorizer.vocabulary_))
